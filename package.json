@@ -1,0 +1,27 @@
+{
+  "name": "rutia-wialon-locations",
+  "version": "1.0.0",
+  "description": "server to update the current positions of the rutia vehicles",
+  "main": "index.js",
+  "author": "Datagas",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "wialon": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
